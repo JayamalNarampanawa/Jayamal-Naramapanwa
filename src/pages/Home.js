@@ -10,7 +10,7 @@ const Home = () => {
           <div className="profile-image-container">
             <img src={profilePic} alt="Profile" className="profile-image" />
           </div>
-          <h1 className="hero-title">Hi, I'm [Your Name]</h1>
+          <h1 className="hero-title">Hi, I'm Jayamal Narampanawa</h1>
           <p className="hero-subtitle">Full Stack Developer | Designer | Problem Solver</p>
           <p className="hero-description">
             I create beautiful, functional, and user-friendly web applications.
