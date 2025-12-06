@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../firebase';
+import { FaWhatsapp, FaLinkedin, FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -95,20 +96,42 @@ const Contact = () => {
         
         <div className="contact-info">
           <h2>Contact Information</h2>
+          
           <div className="info-item">
             <h3>Email</h3>
-            <p>[email]</p>
+            <a href="mailto:ajnarampanawa2@gmail.com" className="contact-link">
+              <FaEnvelope className="contact-icon" />
+              ajnarampanawa2@gmail.com
+            </a>
           </div>
+          
           <div className="info-item">
-            <h3>Location</h3>
-            <p>[Your Location]</p>
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/94765679307" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <FaWhatsapp className="contact-icon" />
+              +94 76 567 9307
+            </a>
           </div>
+          
           <div className="info-item">
-            <h3>Social</h3>
+            <h3>Connect With Me</h3>
             <div className="social-links">
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a href="https://www.linkedin.com/in/jayamal-narampanawa-b7a0a0127" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaLinkedin className="social-icon" />
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://www.facebook.com/share/1AG2DhQWhD/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaFacebook className="social-icon" />
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/jayamal_narampanawa" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaInstagram className="social-icon" />
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.youtube.com/@jayamalnarampanawa" target="_blank" rel="noopener noreferrer" className="social-link">
+                <FaYoutube className="social-icon" />
+                <span>YouTube</span>
+              </a>
             </div>
           </div>
         </div>

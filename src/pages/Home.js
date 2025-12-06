@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import profilePic from '../assets/dp.jpg';
 
@@ -17,8 +18,8 @@ const Home = () => {
             Passionate about clean code and innovative solutions.
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="#contact" className="btn btn-secondary">Get In Touch</a>
+            <Link to="/projects" className="btn btn-primary">View My Work</Link>
+            <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
           </div>
         </div>
       </div>

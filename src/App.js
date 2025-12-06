@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import LoadingScreen from './components/LoadingScreen';
 import Home from './pages/Home';
@@ -25,12 +25,11 @@ function App() {
     setLoading(false);
   };
 
-  if (loading) {
-    return <LoadingScreen onLoadingComplete={handleLoadingComplete} />;
-  }
-
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      {loading ? (
+        <LoadingScreen onLoadingComplete={handleLoadingComplete} />
+      ) : (
       <div className="App">
         <div className="glowing-dots">
           <div className="dot"></div>
@@ -49,8 +48,10 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
+      )}
     </Router>
   );
 }
