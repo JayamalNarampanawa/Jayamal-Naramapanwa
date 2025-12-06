@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Jayamal-Narampanawa/static/css/main.2a0a5031.css",
-    "main.js": "/Jayamal-Narampanawa/static/js/main.ea8fd363.js",
-    "static/media/dp.jpg": "/Jayamal-Narampanawa/static/media/dp.3faeabea603d098ab0a7.jpg",
-    "index.html": "/Jayamal-Narampanawa/index.html",
-    "main.2a0a5031.css.map": "/Jayamal-Narampanawa/static/css/main.2a0a5031.css.map",
-    "main.ea8fd363.js.map": "/Jayamal-Narampanawa/static/js/main.ea8fd363.js.map"
+    "main.css": "/Jayamal-Naramapanwa/static/css/main.2a0a5031.css",
+    "main.js": "/Jayamal-Naramapanwa/static/js/main.f1c15851.js",
+    "static/media/dp.jpg": "/Jayamal-Naramapanwa/static/media/dp.3faeabea603d098ab0a7.jpg",
+    "index.html": "/Jayamal-Naramapanwa/index.html",
+    "main.2a0a5031.css.map": "/Jayamal-Naramapanwa/static/css/main.2a0a5031.css.map",
+    "main.f1c15851.js.map": "/Jayamal-Naramapanwa/static/js/main.f1c15851.js.map"
   },
   "entrypoints": [
     "static/css/main.2a0a5031.css",
-    "static/js/main.ea8fd363.js"
+    "static/js/main.f1c15851.js"
   ]
 }
