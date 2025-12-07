@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Jayamal-Naramapanwa/static/css/main.0b88bfb6.css",
-    "main.js": "/Jayamal-Naramapanwa/static/js/main.d41c1bba.js",
+    "main.css": "/Jayamal-Naramapanwa/static/css/main.c48afabe.css",
+    "main.js": "/Jayamal-Naramapanwa/static/js/main.cfd7fa4b.js",
     "static/media/dp.jpg": "/Jayamal-Naramapanwa/static/media/dp.3faeabea603d098ab0a7.jpg",
     "index.html": "/Jayamal-Naramapanwa/index.html",
-    "main.0b88bfb6.css.map": "/Jayamal-Naramapanwa/static/css/main.0b88bfb6.css.map",
-    "main.d41c1bba.js.map": "/Jayamal-Naramapanwa/static/js/main.d41c1bba.js.map"
+    "main.c48afabe.css.map": "/Jayamal-Naramapanwa/static/css/main.c48afabe.css.map",
+    "main.cfd7fa4b.js.map": "/Jayamal-Naramapanwa/static/js/main.cfd7fa4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b88bfb6.css",
-    "static/js/main.d41c1bba.js"
+    "static/css/main.c48afabe.css",
+    "static/js/main.cfd7fa4b.js"
   ]
 }
