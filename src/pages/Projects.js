@@ -5,27 +5,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration",
-      tech: ["React", "Node.js", "MongoDB"],
-      demo: "https://demo-link.com",
-      repo: "https://github.com/username/project"
+      title: "Mobile Fitness App",
+      description: "A front-end mobile application that operates with real-time data for fitness tracking and monitoring",
+      tech: ["Mobile Development", "Real-time Data", "Frontend"],
+      repo: "https://github.com/JayamalNarampanawa/Fitness-App.git"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative task manager with real-time updates",
-      tech: ["React", "Firebase", "Material-UI"],
-      demo: "https://demo-link.com",
-      repo: "https://github.com/username/project"
+      title: "Agri-Bot",
+      description: "A web application with a dashboard for agriculture sector, operates with real-time data from Firebase which collects important data from sensors",
+      tech: ["Web Application", "Firebase", "IoT Sensors", "Dashboard"],
+      repo: "https://github.com/JayamalNarampanawa/Agri-Bot.git"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Real-time weather data visualization",
-      tech: ["React", "API Integration", "Charts.js"],
-      demo: "https://demo-link.com",
-      repo: "https://github.com/username/project"
+      title: "Library Management System",
+      description: "A simple Library Management System built using Java for managing books, members, and library operations",
+      tech: ["Java", "Desktop Application"],
+      repo: "https://github.com/JayamalNarampanawa/Library-Management-System-.git"
     }
   ];
 
@@ -45,11 +42,8 @@ const Projects = () => {
               ))}
             </div>
             <div className="project-links">
-              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
-                Live Demo
-              </a>
               <a href={project.repo} target="_blank" rel="noopener noreferrer" className="project-link">
-                GitHub
+                View on GitHub
               </a>
             </div>
           </div>
